@@ -27,3 +27,15 @@
 SELECT *
 FROM [Eagles].[dbo].[Combined_Attendance_Table];
 ```
+Query for january
+```sql
+SELECT -- 
+    WhatApp_Name 
+   FROM [Eagles].[dbo].[Combined_Attendance_Table]
+WHERE 
+     [11_jan_2025] ='Present'
+   AND [18_an_2025] = 'Present'
+    AND [25_an_25] = 'Present'
+ORDER BY 
+    WhatApp_Name;
+```
