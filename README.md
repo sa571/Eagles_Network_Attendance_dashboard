@@ -99,6 +99,7 @@ ORDER BY
     WhatApp_Name;
 ```
 ## Query for June attendence
+
 ```sql
 SELECT --
    WhatApp_Name
@@ -109,13 +110,12 @@ WHERE
    AND [8_june_25] = 'Present'
     AND [15_june_25] = 'Present'
     AND [22_june_25] = 'Present'
-
-
 ORDER BY 
     WhatApp_Name;
 ```
-```sql    
 ## Query for July attendence
+
+```sql    
 
 SELECT 
    WhatApp_Name
