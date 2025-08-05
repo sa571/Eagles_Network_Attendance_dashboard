@@ -27,15 +27,105 @@
 SELECT *
 FROM [Eagles].[dbo].[Combined_Attendance_Table];
 ```
-Query for january
+## Query for january attendance
 ```sql
-SELECT -- 
+SELECT 
     WhatApp_Name 
    FROM [Eagles].[dbo].[Combined_Attendance_Table]
 WHERE 
      [11_jan_2025] ='Present'
    AND [18_an_2025] = 'Present'
     AND [25_an_25] = 'Present'
+ORDER BY 
+    WhatApp_Name;
+```
+## Query for february attendance
+```sql
+SELECT 
+   WhatApp_Name
+FROM 
+    [Eagles].[dbo].[Combined_Attendance_Table]
+WHERE 
+     [2_feb_2025] ='Present'
+   AND [9_feb_2025] = 'Present'
+    AND [16_feb_2025] = 'Present'
+    AND [23_feb_25] = 'Present'
+ORDER BY 
+    WhatApp_Name;
+```
+
+## Query for March attendance
+```sql
+SELECT 
+   WhatApp_Name
+FROM 
+    [Eagles].[dbo].[Combined_Attendance_Table]
+WHERE 
+       [2_march_2025] ='Present'
+   AND [9_march_2025] = 'Present'
+    AND [16_march_25] = 'Present'
+    AND [23_march_25] = 'Present'
+	AND [30_march_25] = 'Present'
+ORDER BY 
+    WhatApp_Name;
+```
+## Query for April	attendence
+```sql
+SELECT 
+   WhatApp_Name
+FROM 
+    [Eagles].[dbo].[Combined_Attendance_Table]
+WHERE 
+       [6_april_2025] ='Present'
+   AND [13_april_25] = 'Present'
+    AND [20_april_25] = 'Present'
+    AND [27_april_25] = 'Present'
+ORDER BY 
+    WhatApp_Name;
+```
+
+## Query for May
+```
+	SELECT 
+   WhatApp_Name
+FROM 
+    [Eagles].[dbo].[Combined_Attendance_Table]
+WHERE 
+       [4_may_2025] ='Present'
+   AND [11_may_25] = 'Present'
+    AND [18_may_25] = 'Present'
+    AND [25_may_25] = 'Present'
+ORDER BY 
+    WhatApp_Name;
+```
+## Query for June attendence
+```sql
+SELECT --
+   WhatApp_Name
+FROM 
+    [Eagles].[dbo].[Combined_Attendance_Table]
+WHERE 
+       [1_june_25] ='Present'
+   AND [8_june_25] = 'Present'
+    AND [15_june_25] = 'Present'
+    AND [22_june_25] = 'Present'
+
+
+ORDER BY 
+    WhatApp_Name;
+```
+```sql    
+## Query for July attendence
+
+SELECT 
+   WhatApp_Name
+FROM 
+    [Eagles].[dbo].[Combined_Attendance_Table]
+WHERE 
+        [6_july_25] ='Present'
+   AND [13_july_25] = 'Present'
+    AND [20_july_25] = 'Present'
+  
 ORDER BY 
     WhatApp_Name;
 ```
