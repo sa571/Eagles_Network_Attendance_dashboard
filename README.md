@@ -17,12 +17,13 @@
 ### Excel: Initial data collection, cleaning, and preliminary analysis
 ### SQL: Advanced querying for attendance pattern identification and statistical calculations
 ### Power BI: Interactive dashboard creation and data visualization
-###The integration of these tools enabled comprehensive data processing, from raw attendance records to actionable insights through dynamic visualizations.
+### The integration of these tools enabled comprehensive data processing, from raw attendance records to actionable insights through dynamic visualizations.
 # Recommendations
 ### Based on this analysis, I recommend implementing monthly recognition programs for consistent attendees, developing mentorship opportunities pairing high-attendance members with newer participants, and establishing targeted engagement strategies for members with irregular attendance patterns.
 
-## SQL Query
-
+# SQL Query
+## View all attendance records
 ```sql
-
+SELECT *
+FROM [Eagles].[dbo].[Combined_Attendance_Table];
 ```
